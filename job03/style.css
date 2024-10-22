@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    justify-content: center;
+}
+
+section {
+    background-color: #88c1d0;
+    padding: 20px;
+    flex: 1;
+    max-width: 25%;
+}
+
+section h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+section p {
+    margin: 10px 0;
+    color: #444;
+    line-height: 1.5;
+}
+
+section {
+    background-color: #88c1d0; 
+    height:auto; 
+    margin: 10px 0; 
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+    section {
+        background-color: #ffca4b; 
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+    section {
+        background-color: #275fa0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    section {
+        background-color: #e40f0f; /* 
+    }
+}

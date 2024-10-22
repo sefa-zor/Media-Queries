@@ -1,0 +1,44 @@
+/* Style de base */
+body {
+    background-color: #88c1d0;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Cacher la liste par défaut pour les petits écrans */
+nav ul {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    nav ul {
+        display: none; /* Cacher les liens sur les petits écrans */
+    }
+    
+    #hamburger {
+        display: inline-block; /* Afficher le bouton hamburger */
+    }
+}
+
+/* Media queries pour changer la couleur de fond */
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+    body {
+        background-color: #ffca4b; /* Jaune */
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+    body {
+        background-color: #275fa0; /* Bleu foncé */
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        background-color: #e30b90; /* Blanc */
+    }
+}
